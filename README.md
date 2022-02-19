@@ -1,4 +1,5 @@
-This is where you will see what I am up to on a daily basis for programming and using git. 
+Daily practice in programming and git.
+
 Will try to find a way to notate in an organized as it will essentially be a running string of programming solutions that may not make sense when viewed all together.
 
 Please feel free
