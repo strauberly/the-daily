@@ -15,6 +15,8 @@ asynchronous javascript.
 As well, the following is a one-hour speed run of warmup-1 on code-bat.
 https://codingbat.com/java/Warmup-1. Will give the remaining problems a go next time.
 
+Each run will be in the CodingBat class and documented here in the README.
+
 
 ---
 20:00 - 21:00
