@@ -7,6 +7,14 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-23 Feb 2022-
+
+Work completed on resume. Also began work on creating APIs with Express.js.
+Completed lessons on CSS float layouts.
+
+
+---
+
 -20 Feb 2022-
 
 Today was time spent studying css box models, dimensions, and centering elements and
@@ -298,6 +306,9 @@ hasTeen(20, 10, 13) → true
     public static boolean hasTeen(int a, int b, int c){
         return a >= 13 && a <= 19 || b >= 13 && b <= 19 || c >= 13 && c <= 19;
     }
+
+### Completed 19 challenges out of 31 in 1 hour. Personal best 20 out of 31 in one hour.
+
 ---
 -19 Feb 2022-
 
@@ -319,6 +330,24 @@ Testing: [1, 1, 1, 1] ==> 15
 Testing: [1, 0, 1, 1] ==> 11
 However, the arrays can have varying lengths, not just limited to 4.
 
+    public static void binConv(List<Integer> binary) {
+        int power;
+        int value;
+        int position;
+        int i;
+        int amount = 0;
 
+        for (i = 0; i < binary.size(); i++) {
+            position = i;
+            value = binary.get(i);
+            power = binary.size() - i - 1;
+            System.out.println("position " + position);
+            System.out.println("value " + value);
+            System.out.println("power " + power + "\n");
+            if (value == 1)
+                amount += value * Math.pow(2, power);
+            System.out.println("amount" + amount);
+        }
+    }
 
 ---
