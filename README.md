@@ -7,6 +7,20 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-24 Feb 2022-
+
+New resume uploaded to linked in.
+
+Studied working  flexboxes in CSS. Focus on spacing and alignment.
+
+Completed functions for get and post in natours project api built with node and express. Tested in postman.
+
+Sat in on coding challenge with promineo tech students.
+
+Worked on outline in FarmHand project for the chores section. Will be uploading those notes this evening. Yay!
+
+
+---
 -23 Feb 2022-
 
 Work completed on resume. Also began work on creating APIs with Express.js.
