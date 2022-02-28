@@ -1,4 +1,6 @@
+import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.LinkedTransferQueue;
 
 public class DailyCode {
 
@@ -22,4 +24,18 @@ public class DailyCode {
         }
     }
 
+
+   public  static int areaOrPerimeter (int l, int w){
+//      l==w? do this or do this
+//       return l == w ? l * w : (l + w) * 2;
+
+        if (l == w){
+            return l*w;
+        }else
+            return (l+w)*2;
+   }
+
+   public static double sum(double [] numbers) {
+        return Arrays.stream(numbers).sum();
+   }
 }

@@ -1,9 +1,81 @@
-Daily practice in programming and git.
+Daily programming studies and exercizes journal.
 
 Will try to find a way to notate in an organized manner as it will essentially be a running string of programming solutions that may not make sense when viewed all together.
 
 Please feel free
 to utilize and let me know where you find room for improvements so that I can continue to learn and improve. Cheers!
+
+---
+
+
+-27 Feb 2022-
+
+- Completed lecture on flexboxes along with reformatting sample html to use flexbox instead of float.
+
+
+- Finished Http method requests and refactored routes for more seperation in javascript fullstack course project. See natours repository.
+
+- Completed lectures on javascript engine, runtime, execution contexts, and callstack.
+
+
+- Completed the folowing challenges in Code Wars:
+
+  You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
+If it is a square, return its area. If it is a rectangle, return its perimeter.
+
+area_or_perimeter(6, 10) --> 32
+area_or_perimeter(3, 3) --> 9
+
+return l==w ? l*w: (l+w) * 2;
+
+  Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+
+Examples
+Input: [1, 5.2, 4, 0, -1]
+Output: 9.2
+
+Input: []
+Output: 0
+
+Input: [-2.398]
+Output: -2.398
+
+Assumptions
+You can assume that you are only given numbers.
+You cannot assume the size of the array.
+You can assume that you do get an array and if the array is empty, return 0.
+Tests expect accuracy of 1e-4.
+
+What We're Testing
+We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
+Advanced users may find this extremely easy and can easily write this in one line.
+
+  return Arrays.stream(numbers).sum();
+
+
+---
+
+
+-26 Feb 2022-
+
+While working on the following challenge
+
+Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+I wrote out 
+
+if(b){
+return "Yes";
+}else
+return "No"
+
+but in see the solutions of others was reminded of ternary operators as an option. And so that leead to refamiliarization.
+
+return b ? "Yes" : "No";
+
+completed a couple other challenges as well but this one stood out for the day.
+
+
 
 ---
 
@@ -21,6 +93,8 @@ Worked on outline in FarmHand project for the chores section. Will be uploading 
 
 
 ---
+
+
 -23 Feb 2022-
 
 Work completed on resume. Also began work on creating APIs with Express.js.
