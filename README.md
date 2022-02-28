@@ -7,6 +7,55 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-28 Feb 2022-
+
+More work to Chores section layout and all updates uploaded to FarmHand repository. New classes and Packages put into place.
+
+---
+
+Began lectures on CSS grid.
+
+---
+
+Completed lectures middleware with Express.js and implementation of 3rd party middle ware for actions such as logging. Updates to Natours project in repository.
+
+---
+
+Completed 30 minute lecture on Scope in JS.
+
+---
+
+Created new about me file as practice for answering tell me about yourself interview question.
+
+---
+
+
+Added connections in linked in and began searches for dev op listings.
+
+---
+
+Solved
+
+After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
+
+You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
+
+Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+
+Write a code that gives out the total amount for different days(d).
+
+with 
+
+#####    public static int rentalCarCost(int d) {
+            if (d >= 3) return d >= 7 ? (d * 40) - 50 : (d * 40) - 20;
+            else return d * 40;
+        }
+
+
+
+
+---
+
 
 -27 Feb 2022-
 
@@ -20,37 +69,37 @@ to utilize and let me know where you find room for improvements so that I can co
 
 - Completed the folowing challenges in Code Wars:
 
-  You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
-If it is a square, return its area. If it is a rectangle, return its perimeter.
+  - You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
+    If it is a square, return its area. If it is a rectangle, return its perimeter.
 
-area_or_perimeter(6, 10) --> 32
-area_or_perimeter(3, 3) --> 9
+    area_or_perimeter(6, 10) --> 32
+    area_or_perimeter(3, 3) --> 9
 
-return l==w ? l*w: (l+w) * 2;
+    #### return l==w ? l*w: (l+w) * 2;
 
-  Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+  - Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
 
-Examples
-Input: [1, 5.2, 4, 0, -1]
-Output: 9.2
+    Examples
+    Input: [1, 5.2, 4, 0, -1]
+    Output: 9.2
 
-Input: []
-Output: 0
+    Input: []
+    Output: 0
 
-Input: [-2.398]
-Output: -2.398
+    Input: [-2.398]
+    Output: -2.398
 
-Assumptions
-You can assume that you are only given numbers.
-You cannot assume the size of the array.
-You can assume that you do get an array and if the array is empty, return 0.
-Tests expect accuracy of 1e-4.
+    Assumptions
+    You can assume that you are only given numbers.
+    You cannot assume the size of the array.
+    You can assume that you do get an array and if the array is empty, return 0.
+    Tests expect accuracy of 1e-4.
 
-What We're Testing
-We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
-Advanced users may find this extremely easy and can easily write this in one line.
+    What We're Testing
+    We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
+    Advanced users may find this extremely easy and can easily write this in one line.
 
-  return Arrays.stream(numbers).sum();
+    #### return Arrays.stream(numbers).sum();
 
 
 ---
@@ -110,6 +159,8 @@ asynchronous javascript.
 
 As well, the following is a one-hour speed run of warmup-1 on code-bat.
 https://codingbat.com/java/Warmup-1. Will give the remaining problems a go next time.
+
+Each run will be in the CodingBat class and documented here in the README.
 
 
 ---
