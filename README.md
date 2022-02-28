@@ -26,7 +26,7 @@ to utilize and let me know where you find room for improvements so that I can co
     area_or_perimeter(6, 10) --> 32
     area_or_perimeter(3, 3) --> 9
 
-    return l==w ? l*w: (l+w) * 2;
+    #### return l==w ? l*w: (l+w) * 2;
 
   - Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
 
@@ -50,7 +50,7 @@ to utilize and let me know where you find room for improvements so that I can co
     We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
     Advanced users may find this extremely easy and can easily write this in one line.
 
-  return Arrays.stream(numbers).sum();
+    #### return Arrays.stream(numbers).sum();
 
 
 ---
