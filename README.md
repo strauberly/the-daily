@@ -7,6 +7,19 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-3 Mar 2022-
+
+Well after recovering from birthday festivities... ^_^;
+
+Completed lectures on CSS grid and completed example challenge. Going to try to complete some challenges in addition to.
+
+
+Created user routes, went over mounting multiple routers, and refactored project for further seperation of controllers, routers, server file, and npm script in javascript fullstack course. Changes uploaded to git. 
+
+---
+
+
+
 -28 Feb 2022-
 
 More work to Chores section layout and all updates uploaded to FarmHand repository. New classes and Packages put into place.
