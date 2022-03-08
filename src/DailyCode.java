@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -54,10 +57,9 @@ public class DailyCode {
     }
 
         public static int sortDesc(final int num) {
-        return Integer.parseInt(String.valueOf(num).chars()
-                .mapToObj(i -> String.valueOf(Character.getNumericValue(i)))
-                .sorted(Comparator.reverseOrder())
-                .collect(Collectors.joining()));
+            String[] array = String.valueOf(num).split("");
+            Arrays.sort(array, Collections.reverseOrder());
+            return Integer.parseInt(String.join("", array));
         }
 
         public static boolean isLockNessMonster(String s){
@@ -76,4 +78,9 @@ public class DailyCode {
             if (d >= 3) return d >= 7 ? (d * 40) - 50 : (d * 40) - 20;
             else return d * 40;
         }
+
+    public static int findDifference(final int[] firstCuboid, final int[] secondCuboid) {
+
+        return Math.abs(firstCuboid[0]*firstCuboid[1]*firstCuboid[2]-secondCuboid[0]*secondCuboid[1]*secondCuboid[2]);
+    }
     }

@@ -93,15 +93,50 @@ public class CodingBat {
         return str.length() >= 2 && str.substring(0, 2).equals("hi");
     }
 
-    public static boolean icyHot (int temp1, int temp2){
+    public static boolean icyHot(int temp1, int temp2) {
         return temp1 > 100 && temp2 < 0 || temp1 < 0 && temp2 > 100;
     }
 
-    public static boolean in1020(int a, int b){
-        return ((a >= 10 && a <= 20) || (b <= 20 && b >=10));
+    public static boolean in1020(int a, int b) {
+        return ((a >= 10 && a <= 20) || (b <= 20 && b >= 10));
     }
 
-    public static boolean hasTeen(int a, int b, int c){
+    public static boolean hasTeen(int a, int b, int c) {
         return a >= 13 && a <= 19 || b >= 13 && b <= 19 || c >= 13 && c <= 19;
+    }
+
+    //6 Mar 2022
+    public static boolean loneTeen(int a, int b) {
+////        public boolean loneTeen(int a, int b) {
+////            // Store teen-ness in boolean local vars first. Boolean local
+////            // vars like this are a little rare, but here they work great.
+////            boolean aTeen = (a >= 13 && a <= 19);
+////            boolean bTeen = (b >= 13 && b <= 19);
+////
+////            return (aTeen && !bTeen) || (!aTeen && bTeen);
+////            // Translation: one or the other, but not both.
+////            // Alternately could use the Java xor operator, but it's obscure.
+//        }
+        return ((a < 13 || a > 19) && (b > 12 && b < 20) || (b < 13 || b > 19 && a > 12 && a < 20));
+    }
+
+    public static String delDel(String str) {
+        if (str.length() >= 4 && str.substring(1, 4).equals("del")) {
+            return str.charAt(0) + str.substring(4);
+        } else
+            return str;
+    }
+
+    public static boolean mixStart(String str) {
+        return str.length() >= 3 && str.substring(1, 3).equals("ix");
+    }
+
+    public static String startOz(String str) {
+        boolean o = str.charAt(1) == 'o';
+        boolean z = str.charAt(1) == 'z';
+        if (o) {
+            return "o";
+        } else
+            return "oo";
     }
 }

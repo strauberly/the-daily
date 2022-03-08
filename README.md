@@ -7,6 +7,18 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-7 Mar 2022-
+
+Covered more web designs discussion on icons, color, and images. Finished Express.js lectures with chaining multiple middleware, param middleware, serving static files, and environmnet configuration. Course is now focusing on mongoDB.
+
+---
+
+-5 Mar 2022-
+
+Time spent on html CSS project discussing web design and typography.
+
+---
+
 -3 Mar 2022-
 
 Well after recovering from birthday festivities... ^_^;
@@ -15,6 +27,26 @@ Completed lectures on CSS grid and completed example challenge. Going to try to 
 
 
 Created user routes, went over mounting multiple routers, and refactored project for further seperation of controllers, routers, server file, and npm script in javascript fullstack course. Changes uploaded to git. 
+
+
+solved for:
+
+In this simple exercise, you will create a program that will take two lists of integers, a and b. Each list will consist of 3 positive integers above 0, representing the dimensions of cuboids a and b. You must find the difference of the cuboids' volumes regardless of which is bigger.
+
+For example, if the parameters passed are ([2, 2, 3], [5, 4, 1]), the volume of a is 12 and the volume of b is 20. Therefore, the function should return 8.
+
+Your function will be tested with pre-made examples as well as random ones.
+
+If you can, try writing it in one line of code.
+
+
+with
+
+####  public static int findDifference(final int[] firstCuboid, final int[] secondCuboid) {
+
+        return Math.abs(firstCuboid[0]*firstCuboid[1]*firstCuboid[2]-secondCuboid[0]*secondCuboid[1]*secondCuboid[2]);
+    }
+
 
 ---
 
