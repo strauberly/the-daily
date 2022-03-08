@@ -7,6 +7,12 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-7 Mar 2022-
+
+Covered more web designs discussion on icons, color, and images. Finished Express.js lectures with chaining multiple middleware, param middleware, serving static files, and environmnet configuration. Course is now focusing on mongoDB.
+
+---
+
 -5 Mar 2022-
 
 Time spent on html CSS project discussing web design and typography.
