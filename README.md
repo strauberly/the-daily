@@ -3,7 +3,15 @@ Daily programming studies and exercizes journal.
 Will try to find a way to notate in an organized manner as it will essentially be a running string of programming solutions that may not make sense when viewed all together.
 
 Please feel free
-to utilize and let me know where you find room for improvements so that I can continue to learn and improve. Cheers!
+to utilize and let me know where you find room for improvements so that I can continue to learn and improve. Cheers!!
+
+---
+
+-13 Mar 2022-
+
+Head way made over the last few days over several projects. Today includes lectures on front end web development dealing with components and layout and general structure of building a project.
+
+60% of the way through my html and css course and chomping at the bit to build. :) Cheers!
 
 ---
 
