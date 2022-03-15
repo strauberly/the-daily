@@ -3,7 +3,7 @@ Daily programming studies and exercizes journal.
 Will try to find a way to notate in an organized manner as it will essentially be a running string of programming solutions that may not make sense when viewed all together.
 
 Please feel free
-to utilize and let me know where you find room for improvements so that I can continue to learn and improve. Cheers!
+to utilize and let me know where you find room for improvements so that I can continue to learn and improve. Cheers!!
 
 ---
 
