@@ -7,6 +7,14 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-13 Mar 2022-
+
+Head way made over the last few days over several projects. Today includes lectures on front end web development dealing with components and layout and general structure of building a project.
+
+60% of the way through my html and css course and chomping at the bit to build. :) Cheers!
+
+---
+
 -7 Mar 2022-
 
 Covered more web designs discussion on icons, color, and images. Finished Express.js lectures with chaining multiple middleware, param middleware, serving static files, and environmnet configuration. Course is now focusing on mongoDB.
