@@ -7,6 +7,18 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-14 Mar 2022-
+
+More HTML work.
+
+use of flexbox, flex direction and  css grid in project to create accordion component.
+
+Use of absolute positioning and transform properties to create carousel component.
+
+Completed lectures on scopechain and hoisting in javascript course.
+
+---
+
 -13 Mar 2022-
 
 Head way made over the last few days over several projects. Today includes lectures on front end web development dealing with components and layout and general structure of building a project.
