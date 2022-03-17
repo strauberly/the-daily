@@ -7,6 +7,15 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+
+-16 Mar 2022-
+
+More HTML work.
+
+creation of a table component cruising along.
+
+---
+
 -14 Mar 2022-
 
 More HTML work.
