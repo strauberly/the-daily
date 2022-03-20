@@ -7,6 +7,20 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-20 Mar 2022-
+
+- Pagination component created for html course.
+
+- Lectures on web design patterns.
+
+- Lessons on creating model and schema with mongo db.
+
+- Refactored project to create models.
+
+ 
+
+---
+
 
 -16 Mar 2022-
 
