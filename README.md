@@ -7,6 +7,24 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-21 Mar 2022-
+
+- Completed lectures on web design and getting ready to start work on final course project. There will be a new repository created for it in order to share progress.
+
+I am super excited for waht will be learned there as well as to complete the course and begin work on my own front end designs. 
+
+The time block allocated to this course will then be filled with a course on React.js. 
+
+At that point I think I will have the knowledge needed to create my own MERN application and apply for more developer positions.
+
+- CRUD updated with mongoose functionality for database in our Natours fullstack javascript app.
+
+- Completed Javascript lectures for in depth look at 'this' keyword, regular functions vs. arrow functions, and  primitives vs objects. These studies are helping to shore up my knowledge base.
+
+- Began coursework for React.js course. Started with just a quick javascript refresher.
+
+---
+
 -20 Mar 2022-
 
 - Pagination component created for html course.
