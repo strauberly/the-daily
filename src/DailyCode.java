@@ -44,7 +44,7 @@ public class DailyCode {
         for (double number : numbers) {
             sum += number;
         }
-            return sum;
+        return sum;
 //        double j = 0;
 //        if (numbers.length < 1) {
 //            return 0.0;
@@ -56,31 +56,50 @@ public class DailyCode {
 //    }
     }
 
-        public static int sortDesc(final int num) {
-            String[] array = String.valueOf(num).split("");
-            Arrays.sort(array, Collections.reverseOrder());
-            return Integer.parseInt(String.join("", array));
-        }
+    public static int sortDesc(final int num) {
+        String[] array = String.valueOf(num).split("");
+        Arrays.sort(array, Collections.reverseOrder());
+        return Integer.parseInt(String.join("", array));
+    }
 
-        public static boolean isLockNessMonster(String s){
+    public static boolean isLockNessMonster(String s) {
         return s.contains("tree fiddy") || s.contains("3.50");
-        }
+    }
 
-        //return a new array mapped
-        public static int[] digitize(long n){
+    //return a new array mapped
+    public static int[] digitize(long n) {
         return new StringBuilder().append(n).reverse()
                 .chars()
                 .map(Character::getNumericValue)
                 .toArray();
-        }
+    }
 
-        public static int rentalCarCost(int d) {
-            if (d >= 3) return d >= 7 ? (d * 40) - 50 : (d * 40) - 20;
-            else return d * 40;
-        }
+    public static int rentalCarCost(int d) {
+        if (d >= 3) return d >= 7 ? (d * 40) - 50 : (d * 40) - 20;
+        else return d * 40;
+    }
 
     public static int findDifference(final int[] firstCuboid, final int[] secondCuboid) {
 
-        return Math.abs(firstCuboid[0]*firstCuboid[1]*firstCuboid[2]-secondCuboid[0]*secondCuboid[1]*secondCuboid[2]);
+        return Math.abs(firstCuboid[0] * firstCuboid[1] * firstCuboid[2] - secondCuboid[0] * secondCuboid[1] * secondCuboid[2]);
     }
-    }
+
+    public static boolean solution(String str, String ending) {
+        return str.endsWith(ending);
+
+//        return str.length() >= ending.length() ?
+//                str.substring(str.length()-ending.length()).equals(ending) : false;
+        //        if(str.length() >= ending.length()){
+//            return str.substring(str.length() - ending.length(), str.length()).equals(ending);
+//        }else
+//            return false;
+//    }
+//       return strOne.substring(strOne.length() - strTwo.length(), strOne.length()).equals(strTwo);
+//        if (strOne.length() >= strTwo.length()) {
+//            while (strOne.substring(strOne.length() - strTwo.length(), strOne.length()).equals(strTwo)) {
+//                return true;
+//            }else
+//            return false;
+}
+
+}

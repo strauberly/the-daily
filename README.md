@@ -7,6 +7,47 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-22 Mar 2022-
+
+- Worked on farmhand project developing chore objects and creating the chore database. There's that excitement again when it feels like the desired outcome is starting to manifest.
+
+- Solved
+
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+Examples:
+
+solution('abc', 'bc') // returns true
+solution('abc', 'd') // returns false
+
+with 
+
+ public static boolean solution(String str, String ending) {
+    if(str.length() >= ending.length()){
+            return str.substring(str.length() - ending.length(), str.length()).equals(ending);
+        }else
+            return false;
+    }
+
+and was pleased I at least solved it in a single go with out much trouble
+
+and then saw
+
+        return str.length() >= ending.length() ?
+                str.substring(str.length()-ending.length()).equals(ending) : false;
+
+which is actually what I waned to do, and then saw
+
+ return str.endsWith(ending);
+
+and immediatly felt like an idiot. 🤣️
+
+But that is what these exercises are for. 
+
+## Never stop. Learning. What you don't know. You don't know.
+
+---
+
 -21 Mar 2022-
 
 - Completed lectures on web design and getting ready to start work on final course project. There will be a new repository created for it in order to share progress.
