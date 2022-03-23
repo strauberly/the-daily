@@ -45,7 +45,7 @@ and immediatly felt like an idiot. 🤣️
 But that is what these exercises are for. 
 
 ## Never stop. Learning. What you don't know. You don't know.
-
+.
 ---
 
 -21 Mar 2022-
