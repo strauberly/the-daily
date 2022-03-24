@@ -7,6 +7,14 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-23 Mar 2022-
+
+- Created new repository for my final project in my html and css course and started laying out the beginning files. I am really looking to its completion!
+
+ 
+
+---
+
 -22 Mar 2022-
 
 - Worked on farmhand project developing chore objects and creating the chore database. There's that excitement again when it feels like the desired outcome is starting to manifest.
