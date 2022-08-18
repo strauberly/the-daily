@@ -1,4 +1,4 @@
-Daily programming studies and exercizes journal.
+Daily programming studies and exercises journal.
 
 Will try to find a way to notate in an organized manner as it will essentially be a running string of programming solutions that may not make sense when viewed all together.
 
@@ -7,14 +7,17 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-18 Aug 2022-
+
+Began deeper dive into how React evaluates the virtual dom instead of physical dom which is more resource intensive.
+
+---
 
 -17 Apr 2022-
 
 Little bit of work today on spread operators.
 
 ---
-
-
 
 ```
 
@@ -107,11 +110,6 @@ console.log(restaurant.name);
 
 
 ```
-
-
-
-
-
 
 -13 Apr 2022-
 
@@ -260,6 +258,7 @@ Have taken on more course work and so this has slowed down a bit but daily progr
 Besides course work in React and API building also reviewed a lesson on destructuring arrays.
 
 the following are the notes from class example.
+
 ```
 'use strict';
 
@@ -341,23 +340,15 @@ output
 
 ```
 
-
-
-
 -24 Mar 2022-
 
 - Completed lectures dedicated to responsive web design and importance of rem and max width. Will begin work on hero section next.
 
- 
-
 ---
-
 
 -23 Mar 2022-
 
 - Created new repository for my final project in my html and css course and started laying out the beginning files. I am really looking to its completion!
-
- 
 
 ---
 
@@ -374,14 +365,14 @@ Examples:
 solution('abc', 'bc') // returns true
 solution('abc', 'd') // returns false
 
-with 
+with
 
- public static boolean solution(String str, String ending) {
-    if(str.length() >= ending.length()){
-            return str.substring(str.length() - ending.length(), str.length()).equals(ending);
-        }else
-            return false;
-    }
+public static boolean solution(String str, String ending) {
+if(str.length() >= ending.length()){
+return str.substring(str.length() - ending.length(), str.length()).equals(ending);
+}else
+return false;
+}
 
 and was pleased I at least solved it in a single go with out much trouble
 
@@ -392,29 +383,29 @@ and then saw
 
 which is actually what I waned to do, and then saw
 
- return str.endsWith(ending);
+return str.endsWith(ending);
 
 and immediatly felt like an idiot. 🤣️
 
-But that is what these exercises are for. 
+But that is what these exercises are for.
 
 ## Never stop. Learning. What you don't know. You don't know.
-.
----
+
+## .
 
 -21 Mar 2022-
 
 - Completed lectures on web design and getting ready to start work on final course project. There will be a new repository created for it in order to share progress.
 
-I am super excited for waht will be learned there as well as to complete the course and begin work on my own front end designs. 
+I am super excited for waht will be learned there as well as to complete the course and begin work on my own front end designs.
 
-The time block allocated to this course will then be filled with a course on React.js. 
+The time block allocated to this course will then be filled with a course on React.js.
 
 At that point I think I will have the knowledge needed to create my own MERN application and apply for more developer positions.
 
 - CRUD updated with mongoose functionality for database in our Natours fullstack javascript app.
 
-- Completed Javascript lectures for in depth look at 'this' keyword, regular functions vs. arrow functions, and  primitives vs objects. These studies are helping to shore up my knowledge base.
+- Completed Javascript lectures for in depth look at 'this' keyword, regular functions vs. arrow functions, and primitives vs objects. These studies are helping to shore up my knowledge base.
 
 - Began coursework for React.js course. Started with just a quick javascript refresher.
 
@@ -430,10 +421,7 @@ At that point I think I will have the knowledge needed to create my own MERN app
 
 - Refactored project to create models.
 
- 
-
 ---
-
 
 -16 Mar 2022-
 
@@ -447,7 +435,7 @@ creation of a table component cruising along.
 
 More HTML work.
 
-use of flexbox, flex direction and  css grid in project to create accordion component.
+use of flexbox, flex direction and css grid in project to create accordion component.
 
 Use of absolute positioning and transform properties to create carousel component.
 
@@ -477,13 +465,11 @@ Time spent on html CSS project discussing web design and typography.
 
 -3 Mar 2022-
 
-Well after recovering from birthday festivities... ^_^;
+Well after recovering from birthday festivities... ^\_^;
 
 Completed lectures on CSS grid and completed example challenge. Going to try to complete some challenges in addition to.
 
-
-Created user routes, went over mounting multiple routers, and refactored project for further seperation of controllers, routers, server file, and npm script in javascript fullstack course. Changes uploaded to git. 
-
+Created user routes, went over mounting multiple routers, and refactored project for further seperation of controllers, routers, server file, and npm script in javascript fullstack course. Changes uploaded to git.
 
 solved for:
 
@@ -495,18 +481,14 @@ Your function will be tested with pre-made examples as well as random ones.
 
 If you can, try writing it in one line of code.
 
-
 with
 
-####  public static int findDifference(final int[] firstCuboid, final int[] secondCuboid) {
+#### public static int findDifference(final int[] firstCuboid, final int[] secondCuboid) {
 
         return Math.abs(firstCuboid[0]*firstCuboid[1]*firstCuboid[2]-secondCuboid[0]*secondCuboid[1]*secondCuboid[2]);
     }
 
-
 ---
-
-
 
 -28 Feb 2022-
 
@@ -530,7 +512,6 @@ Created new about me file as practice for answering tell me about yourself inter
 
 ---
 
-
 Added connections in linked in and began searches for dev op listings.
 
 ---
@@ -545,28 +526,23 @@ Every day you rent the car costs $40. If you rent the car for 7 or more days, yo
 
 Write a code that gives out the total amount for different days(d).
 
-with 
+with
 
-#####    public static int rentalCarCost(int d) {
+##### public static int rentalCarCost(int d) {
+
             if (d >= 3) return d >= 7 ? (d * 40) - 50 : (d * 40) - 20;
             else return d * 40;
         }
 
-
-
-
 ---
-
 
 -27 Feb 2022-
 
 - Completed lecture on flexboxes along with reformatting sample html to use flexbox instead of float.
 
-
 - Finished Http method requests and refactored routes for more seperation in javascript fullstack course project. See natours repository.
 
 - Completed lectures on javascript engine, runtime, execution contexts, and callstack.
-
 
 - Completed the folowing challenges in Code Wars:
 
@@ -602,9 +578,7 @@ with
 
     #### return Arrays.stream(numbers).sum();
 
-
 ---
-
 
 -26 Feb 2022-
 
@@ -612,7 +586,7 @@ While working on the following challenge
 
 Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
-I wrote out 
+I wrote out
 
 if(b){
 return "Yes";
@@ -625,15 +599,13 @@ return b ? "Yes" : "No";
 
 completed a couple other challenges as well but this one stood out for the day.
 
-
-
 ---
 
 -24 Feb 2022-
 
 New resume uploaded to linked in.
 
-Studied working  flexboxes in CSS. Focus on spacing and alignment.
+Studied working flexboxes in CSS. Focus on spacing and alignment.
 
 Completed functions for get and post in natours project api built with node and express. Tested in postman.
 
@@ -641,15 +613,12 @@ Sat in on coding challenge with promineo tech students.
 
 Worked on outline in FarmHand project for the chores section. Will be uploading those notes this evening. Yay!
 
-
 ---
-
 
 -23 Feb 2022-
 
 Work completed on resume. Also began work on creating APIs with Express.js.
 Completed lessons on CSS float layouts.
-
 
 ---
 
@@ -663,26 +632,23 @@ https://codingbat.com/java/Warmup-1. Will give the remaining problems a go next 
 
 Each run will be in the CodingBat class and documented here in the README.
 
-
 ---
+
 20:00 - 21:00
 
-
 The parameter weekday is true if it is a weekday, and the parameter vacation is true if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return true if we sleep in.
-
 
 sleepIn(false, false) → true
 sleepIn(true, false) → false
 sleepIn(false, true) → true
-    
+
     public static boolean sleepIn(boolean weekday, boolean vacation) {
     return !weekday || vacation;
     }
+
 ---
 
-
 We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
-
 
 monkeyTrouble(true, true) → true
 monkeyTrouble(false, false) → true
@@ -690,11 +656,10 @@ monkeyTrouble(true, false) → false
 
          return aSmile && bSmile || !aSmile && !bSmile;
     }
+
 ---
 
-
 Given two int values, return their sum. Unless the two values are the same, then return double their sum.
-
 
 sumDouble(1, 2) → 3
 sumDouble(3, 2) → 5
@@ -703,13 +668,13 @@ sumDouble(2, 2) → 8
     public static int sumDouble(int a, int b) {
     if (a == b) {
     return (a + b) * 2;
-    } else  
+    } else
     return a + b;
     }
+
 ---
 
 Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
-
 
 diff21(19) → 2
 diff21(10) → 11
@@ -719,16 +684,12 @@ diff21(21) → 0
     if (n>21){
     return (n-21) * 2;
     }else
-    return 21-n;    
+    return 21-n;
     }
 
 ---
 
-
-
-
 We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return true if we are in trouble.
-
 
 parrotTrouble(true, 6) → true
 parrotTrouble(true, 7) → false
@@ -737,11 +698,10 @@ parrotTrouble(false, 6) → false
     public static boolean parrotTrouble(boolean talking, int hour) {
     return talking && (hour < 7 || hour > 20);
     }
+
 ---
 
-
 Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
-
 
 makes10(9, 10) → true
 makes10(9, 9) → false
@@ -750,11 +710,10 @@ makes10(1, 9) → true
     public static boolean makes10(int a, int b) {
     return a == 10 || b == 10 || a + b == 10;
     }
+
 ---
 
-
 Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
-
 
 makes10(9, 10) → true
 makes10(9, 9) → false
@@ -763,16 +722,14 @@ makes10(1, 9) → true
     public static boolean makes10(int a, int b) {
     return a == 10 || b == 10 || a + b == 10;
     }
----
 
+---
 
 Given an int n, return true if it is within 10 of 100 or 200. Note: Math.abs(num) computes the absolute value of a number.
-
 
 nearHundred(93) → true
 nearHundred(90) → true
 nearHundred(89) → false
-
 
     public static boolean nearHundred(int n) {
         return Math.abs(100 - n) < 11 || Math.abs(200 - n) < 11;
@@ -780,15 +737,11 @@ nearHundred(89) → false
 
 ---
 
-
-
 Given 2 int values, return true if one is negative and one is positive. Except if the parameter "negative" is true, then return true only if both are negative.
-
 
 posNeg(1, -1, false) → true
 posNeg(-1, 1, false) → true
 posNeg(-4, -5, true) → true
-
 
     public static boolean posNeg(int a, int b, boolean negative) {
         if (negative) {
@@ -799,9 +752,7 @@ posNeg(-4, -5, true) → true
 
 ---
 
-
 Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged. Note: use .equals() to compare 2 strings.
-
 
 notString("candy") → "not candy"
 notString("x") → "not x"
@@ -813,13 +764,10 @@ notString("not bad") → "not bad"
     } else
     return "not " + str;
     }
+
 ---
 
-
-
-
 Given a string, return a new string where the first and last chars have been exchanged.
-
 
 frontBack("code") → "eodc"
 frontBack("a") → "a"
@@ -835,9 +783,7 @@ frontBack("ab") → "ba"
 
 ---
 
-
 Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3, the front is whatever is there. Return a new string which is 3 copies of the front.
-
 
 front3("Java") → "JavJavJav"
 front3("Chocolate") → "ChoChoCho"
@@ -855,7 +801,6 @@ front3("abc") → "abcabcabc"
 
 Given a string, take the last char and return a new string with the last char added at the front and back, so "cat" yields "tcatt". The original string will be length 1 or more.
 
-
 backAround("cat") → "tcatt"
 backAround("Hello") → "oHelloo"
 backAround("a") → "aaa"
@@ -864,11 +809,10 @@ backAround("a") → "aaa"
         char back = str.charAt(str.length() - 1);
         return back + str + back;
     }
+
 ---
 
-
 Return true if the given non-negative number is a multiple of 3 or a multiple of 5. Use the % "mod" operator -- see Introduction to Mod
-
 
 or35(3) → true
 or35(10) → true
@@ -877,11 +821,10 @@ or35(8) → false
     public static boolean or35(int n) {
     return n % 3 == 0 || n % 5 == 0;
     }
+
 ---
 
-
 Given a string, take the first 2 chars and return the string with the 2 chars added at both the front and back, so "kitten" yields"kikittenki". If the string length is less than 2, use whatever chars are there.
-
 
 front22("kitten") → "kikittenki"
 front22("Ha") → "HaHaHa"
@@ -893,11 +836,10 @@ front22("Ha") → "HaHaHa"
         } else
             return str + str + str;
     }
+
 ---
 
-
 Given a string, return true if the string starts with "hi" and false otherwise.
-
 
 startHi("hi there") → true
 startHi("hi") → true
@@ -906,12 +848,10 @@ startHi("hello hi") → false
     public static boolean startHi(String str) {
         return str.length() >= 2 && str.substring(0, 2).equals("hi");
     }
+
 ---
 
-
-
 Given two temperatures, return true if one is less than 0 and the other is greater than 100.
-
 
 icyHot(120, -1) → true
 icyHot(-1, 120) → true
@@ -919,12 +859,10 @@ icyHot(2, 120) → false
 
     public static boolean icyHot (int temp1, int temp2){
     return temp1 > 100 && temp2 < 0 || temp1 < 0 && temp2 > 100;
-}
----
 
+## }
 
 Given 2 int values, return true if either of them is in the range 10..20 inclusive.
-
 
 in1020(12, 99) → true
 in1020(21, 12) → true
@@ -933,9 +871,10 @@ in1020(8, 99) → false
     public static boolean in1020(int a, int b){
         return ((a >= 10 && a <= 20) || (b <= 20 && b >=10));
     }
----
-We'll say that a number is "teen" if it is in the range 13..19 inclusive. Given 3 int values, return true if 1 or more of them are teen.
 
+---
+
+We'll say that a number is "teen" if it is in the range 13..19 inclusive. Given 3 int values, return true if 1 or more of them are teen.
 
 hasTeen(13, 20, 10) → true
 hasTeen(20, 19, 10) → true
@@ -948,10 +887,12 @@ hasTeen(20, 10, 13) → true
 ### Completed 19 challenges out of 31 in 1 hour. Personal best 20 out of 31 in one hour.
 
 ---
+
 -19 Feb 2022-
 
 Created a method for accepting a binary string and converting it to decimal for ease of reading for the following challenge.
 In class DailyCode called binConv().
+
 ### Given an array of ones and zeroes, convert the equivalent binary value to an integer.
 
 Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
