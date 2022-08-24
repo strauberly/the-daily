@@ -7,9 +7,15 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
--22 Aug 2022-
-Completed lectures on child component evaluations and limiting needless execution though the use of React.memo and use callback. Also included discussions of when to use these tools as there is a trade off in comparing one aspect vs comparing another. Essentially boiled down to if large application with large component tree or lots of children components where changes are not happenning, limit the branch from being continuos evaluation and limit resource consumption. 
+-23 Aug 2022-
 
+- Lectures for discussion of React state scheduling and batching. Utilization of useMemo to help save resources during intensive processes(ie. sorting)
+- Brief intro to class based components.
+
+---
+
+-22 Aug 2022-
+Completed lectures on child component evaluations and limiting needless execution though the use of React.memo and use callback. Also included discussions of when to use these tools as there is a trade off in comparing one aspect vs comparing another. Essentially boiled down to if large application with large component tree or lots of children components where changes are not happenning, limit the branch from being continuos evaluation and limit resource consumption.
 
 ---
 
