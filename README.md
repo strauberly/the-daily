@@ -7,6 +7,28 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-26 Aug 2022-
+
+Lectures on:
+
+- How to implement error boundaries with class based component.
+
+-25 Aug 2022-
+
+Lectures on:
+
+- Component lifecycle examples
+- Class based components and context
+
+  -24 Aug 2022-
+
+- Lectures for discussion of React state scheduling and batching. Utilization of useMemo to help save resources during intensive processes(ie. sorting)
+- Brief intro to class based components.
+- Working with state and events.
+- component lifecycle
+
+---
+
 -23 Aug 2022-
 
 - Lectures for discussion of React state scheduling and batching. Utilization of useMemo to help save resources during intensive processes(ie. sorting)
