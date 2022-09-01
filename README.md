@@ -7,11 +7,21 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-1 Sep 2022-
+
+Lectures and exercises on:
+
+- Building a Http request utilizing a reusable custom hook.
+
+---
+
 -26 Aug 2022-
 
 Lectures on:
 
 - How to implement error boundaries with class based component.
+
+---
 
 -25 Aug 2022-
 
@@ -19,6 +29,8 @@ Lectures on:
 
 - Component lifecycle examples
 - Class based components and context
+
+---
 
   -24 Aug 2022-
 
