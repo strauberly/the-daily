@@ -12,6 +12,7 @@ to utilize and let me know where you find room for improvements so that I can co
 Lectures and exercises on:
 
 - Building a Http request utilizing a reusable custom hook.
+- Custom hook implemented.
 
 ---
 
