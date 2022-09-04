@@ -7,6 +7,19 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-4 Sep 2022-
+
+- Practice implementing a custom hook into another component.
+
+---
+
+Lectures and exercises on:
+
+- Building a Http request utilizing a reusable custom hook.
+- Custom hook implemented.
+
+---
+
 -1 Sep 2022-
 
 Lectures and exercises on:
@@ -33,7 +46,7 @@ Lectures on:
 
 ---
 
-  -24 Aug 2022-
+-24 Aug 2022-
 
 - Lectures for discussion of React state scheduling and batching. Utilization of useMemo to help save resources during intensive processes(ie. sorting)
 - Brief intro to class based components.
