@@ -7,6 +7,12 @@ to utilize and let me know where you find room for improvements so that I can co
 
 ---
 
+-8 Sep 2022-
+
+- Practice bash scripts as part of interview prep.
+
+---
+
 -4 Sep 2022-
 
 - Practice implementing a custom hook into another component.
